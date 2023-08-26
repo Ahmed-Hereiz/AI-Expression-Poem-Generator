@@ -1,0 +1,10 @@
+transformers[torch]
+transformers
+torch
+torchvision
+accelerate
+xformers
+streamlit
+numpy 
+opencv-python
+Pillow
