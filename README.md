@@ -1,7 +1,3 @@
-Certainly, here's a sample project description that you can include in your README file to explain your project, which captures an image from a webcam, detects the emotion in the image, and generates a poem based on the detected emotion:
-
----
-
 # AI Emotion-Based Poem Generator
 
 ## Overview
@@ -38,13 +34,13 @@ Before running the AI Emotion-Based Poem Generator, ensure you have the followin
    - Build the Docker image:
 
      ```bash
-     docker build -t your-docker-image-name .
+     docker build -t streamlit_app .
      ```
 
    - Run the Docker container:
 
      ```bash
-     docker run -p 80:80 your-docker-image-name
+     docker run -p 80:80 streamlit_app
      ```
 
    - Open your web browser and access the Streamlit app at [http://localhost:80](http://localhost:80).
